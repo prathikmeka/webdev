@@ -1,0 +1,193 @@
+*{padding: 0;margin: 0}
+
+
+body{
+    
+    background-image: url(http://www.1stwebdesigner.com/wp-content/uploads/2012/05/5.jpg);
+    background-size: cover;
+    color:bisque;
+}
+
+.header{background-color:#500000;
+         color: #500000;
+         position:fixed;
+         top: 0;
+         width: 100%;
+         height: 100px;}
+
+.searchbox{background-color: #c7c706;
+           padding: 5px;
+           display: inline-block;
+           float: right;
+           margin-top: 35px;
+           margin-right: 15px;
+           border-radius:5px; }
+
+
+.headerimage{
+          display: inline-block;
+          float:left;}
+
+
+
+/* navigation*/
+
+.navigator{margin-top:-53px;
+           width: 100%;
+           height: 50px;
+           background-color:black;
+           position: fixed;
+}
+
+.menu{
+    list-style: none;
+    padding-top: 5px;}
+    
+.menuin{
+    padding: 10px;
+    background-color: #500000;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border-color: black;
+    border: 10px;
+    position: relative;}
+
+.menuin>a { 
+           text-decoration: none;
+           text-decoration-color: bisque;
+           color: bisque;}
+
+.menuin>a:hover{
+    color:dodgerblue;}
+
+/* drop down */
+
+.innernav{
+          list-style:none;
+          position: absolute;
+          top: 40px;
+          width: 94px;
+          display: none;
+          opacity: 0;
+          visibility: hidden;}
+
+.innernavitem{
+            background-color: #500000;
+            padding:10px;}
+
+.innernavitem>a{
+               text-decoration: none;
+               color: bisque;
+               padding-top: 20px;
+               padding-bottom: 5px;
+               margin: 5px;}
+
+.menu .menuin:hover .innernav{
+                              display: block;
+                              opacity: 1;
+                              visibility: visible;}
+
+
+
+    
+
+
+
+
+/* cover page */
+
+.cover{    margin-top: 150px;
+           
+           background-image: url(http://3.bp.blogspot.com/_FoXyvaPSnVk/SwxUpbdbRKI/AAAAAAACRnk/wNlVbBl4mNg/s1600/Ferrari-Store-Athens-4.jpg);
+           image-orientation: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 800px;
+           font-family: 'Racing Sans One', cursive;
+           font-size: 2em;
+           text-align: left;
+           padding-top: 5px;
+           padding-left: 15px;
+           color:#500000;
+           text-shadow: 2px 4px 4px yellow;}
+
+.subject{
+
+          animation-duration:15s;
+          animation-name: sub;
+          animation-iteration-count: infinite;
+          animation-delay: 15s;
+          width:1100;
+          height:700px;
+          padding: 20px;
+          font-size: 20px;
+          font-family:inherit;}
+
+@keyframes sub{
+    from{background-color: #500000}
+    to{background-color:black}
+}
+
+.image{
+          display: inline-block;
+          float: right;
+          padding-left: 3px;
+}
+
+/*fixed image */
+
+.fixedimage{position: fixed;
+           bottom: 4px;
+           right: 8px;}
+
+.fixedimage:hover{
+                 visibility:collapse;
+                 opacity: 1;}
+
+
+
+/* subject2    */
+
+.subject2{
+    
+    height: 400px;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: cadetblue;}
+
+.image1{
+    padding: 5px;
+    float:right;}
+
+.image2{
+    padding: 5px;
+    float: left;}
+
+.image3{
+    padding: 5px;
+    display: inline-block;}
+
+
+/* play */
+
+.play {
+  position:relative;
+    height: 500px;}
+
+
+.play img {
+  position:absolute;
+  }
+
+
+.play img.top:hover {
+  opacity:0;}
+
+
+
+
+
+
